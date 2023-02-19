@@ -1,0 +1,14 @@
+{
+    "name": "projeto_conade/mvc",
+        "autoload": {
+            "psr-4": {
+                "app\\" : "app/"
+            },
+            "files": [
+                "app/config/config.php"
+            ]
+        },
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}
